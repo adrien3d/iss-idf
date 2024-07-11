@@ -1,3 +1,29 @@
+# ToDo list
+## HW
+- Connect the Antenna button
+- Connect the Volume button
+- Connect the High frequencies
+- Connect the Low frequencies
+- Connect the switches (On/Off, PU, GO, PO, OC, MF)
+
+- Connect a Rotary Encoder with Push-Button
+- Rotary potentiometer (generic)
+
+## SW
+- BLE
+  - Wifi SSID
+  - Wifi PWD
+  - Source (FM or Web)
+  - Frequency
+  - URL
+- Connect to WiFi
+- WebRadios flow
+- SI4703
+- TEA5767
+
+### Resources
+[Radio Arduino Library](https://www.mathertel.de/Arduino/RadioLibrary.aspx)
+
 # esp-idf-tea5767
 TEA5767 FM Stereo Radio Driver for esp-idf.
 
@@ -44,7 +70,7 @@ idf.py flash
  In Japan it ranges from 76 MHz to 91 MHz.   
  Used when wrapping in a search.   
 
-# Wireing
+# Wiring
 
 |TEA5767||ESP32|ESP32-S2/S3|ESP32-C2/C3/C6||
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -86,3 +112,4 @@ Refer to tea5767.h.
 
 # Reference   
 https://github.com/nopnop2002/esp-idf-fm-radio
+
